@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="WinDateCalc.avalonia.MainWindow"
+        Title="WinDateCalc.avalonia">
+	<Window.Background>
+    <ImageBrush Source="background.jpg"/>
+</Window.Background>
+	<StackPanel>
+		<Label>Inserisci la data</Label>
+		<DatePicker x:Name="data" />
+		<Button Click="calcola_Click">Calcola</Button>
+		<Label x:Name="risultato" />
+		<Label>Autore: Giulio Sorrentino</Label>
+		<Label>Questo programma è disponibile sotto licenza GPL v3 o, secondo la tua opionione qualsiasi versione successiva</Label>
+		<Label>Questo vuole essere un proof of concept, dedicato a quella oscura presenza che mi ha aiutato a Rivisondoli l'estate del 2020</Label>
+	</StackPanel>
+</Window>
