@@ -10,6 +10,8 @@ Vuol essere un proof of concept dedicato a quella oscura presenza che mi ha aiut
 # Installazione
 
 # Tramite repository
+Seguite prima la guida all'indirizzo https://learn.microsoft.com/it-it/dotnet/core/install/linux-debian
+
 Installate la nuova chiave del repository tramite il comando sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 52B68EEB
 
 Poi inserite nel file /etc/apt/sources.list la riga deb http://numeronesoft.ddns.net/repos/apt/debian bullseye main
