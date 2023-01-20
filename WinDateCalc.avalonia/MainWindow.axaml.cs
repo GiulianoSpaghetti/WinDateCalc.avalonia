@@ -44,5 +44,19 @@ namespace WinDateCalc.avalonia
             s.Substring(i+1);
             risultato.Content = $"Mancano {giorni} giorni, {ore} ore {minuti} minuti.";
         }
+
+        private void Info_Click(object sender, RoutedEventArgs e)
+        {
+            Applicazione.IsVisible = false;
+            Info.IsVisible = true;
+        }
+
+        private void App_Click(object sender, RoutedEventArgs e)
+        {
+            Info.IsVisible = false;
+            Applicazione.IsVisible = true;
+        }
+
+
     }
 }

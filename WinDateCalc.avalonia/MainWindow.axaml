@@ -9,12 +9,18 @@
     <ImageBrush Source="background.jpg"/>
 </Window.Background>
 	<StackPanel>
-		<Label>Inserisci la data</Label>
-		<DatePicker x:Name="data" />
-		<Button Click="calcola_Click">Calcola</Button>
-		<Label x:Name="risultato" />
-		<Label>Autore: Giulio Sorrentino</Label>
-		<Label>Questo programma è disponibile sotto licenza GPL v3 o, secondo la tua opionione qualsiasi versione successiva</Label>
-		<Label>Questo vuole essere un proof of concept, dedicato a quella oscura presenza che mi ha aiutato a Rivisondoli l'estate del 2020</Label>
+		<StackPanel x:Name="Applicazione">
+			<Label>Inserisci la data</Label>
+			<DatePicker x:Name="data" />
+			<Button Click="calcola_Click">Calcola</Button>
+			<Button Click="Info_Click">Informazioni</Button>
+			<Label x:Name="risultato" />
+		</StackPanel>
+		<StackPanel x:Name="Info" IsVisible="false">
+			<Label>Autore: Giulio Sorrentino</Label>
+			<Label>Questo programma è disponibile sotto licenza GPL v3 o, secondo la tua opionione qualsiasi versione successiva</Label>
+			<Label>Questo vuole essere un proof of concept, dedicato a quella oscura presenza che mi ha aiutato a Rivisondoli l'estate del 2020</Label>
+			<Button Click="App_Click">Applicazione</Button>
+		</StackPanel>
 	</StackPanel>
 </Window>
