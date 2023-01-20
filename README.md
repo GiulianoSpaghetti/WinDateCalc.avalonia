@@ -16,7 +16,7 @@ Installate la nuova chiave del repository tramite il comando sudo apt-key adv --
 
 Poi inserite nel file /etc/apt/sources.list la riga deb http://numeronesoft.ddns.net/repos/apt/debian bullseye main
 
-Infine fate apt update ed apt install wxbriscola
+Infine fate apt update ed apt install windatecalc.avalonia
 
 # Donazioni
 
