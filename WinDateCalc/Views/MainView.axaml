@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:WinDateCalc.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WinDateCalc.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition Width="auto"/>
+		</Grid.ColumnDefinitions>
+		<Image x:Name="background" Source="/Assets/background.jpg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="2" />
+			<Label Grid.Row="0" Grid.Column="0" Foreground="White" >Data: </Label>
+			<DatePicker Grid.Row="0" Grid.Column="1" x:Name="data" Foreground="White" />
+			<Button Click="calcola_Click" Grid.Row="1" Grid.Column="1" Foreground="White">Calcola</Button>
+			<Label x:Name="risultato" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White" />
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White">Questa app vuole essere un rifacimento in avalonia 11 della app WinDateCalc in xamarin</TextBlock>
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White">ⓒ Giulio Sorrentino 2023 some right reserved. Questa app è sotto GPLv3 o, secondo la propria personale opinione, qualsiasi versione successiva.</TextBlock>
+		</Grid>
+	</UserControl>
