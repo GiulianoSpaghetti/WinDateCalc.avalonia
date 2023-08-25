@@ -24,11 +24,11 @@
 			<ColumnDefinition Width="auto"/>
 		</Grid.ColumnDefinitions>
 		<Image x:Name="background" Source="/Assets/background.jpg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="2" />
-			<Label Grid.Row="0" Grid.Column="0" Foreground="White" >Data: </Label>
-			<DatePicker Grid.Row="0" Grid.Column="1" x:Name="data" Foreground="White" />
-			<Button Click="calcola_Click" Grid.Row="1" Grid.Column="1" Foreground="White">Calcola</Button>
-			<Label x:Name="risultato" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White" />
+		<Label Grid.Row="0" Grid.Column="0" Foreground="White" >Data: </Label>
+		<DatePicker Grid.Row="0" Grid.Column="1" x:Name="data" Foreground="White" />
+		<Button Click="calcola_Click" Grid.Row="1" Grid.Column="1" Foreground="White">Calcola</Button>
+		<Label x:Name="risultato" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White" />
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White">Questa app vuole essere un rifacimento in avalonia 11 della app WinDateCalc in xamarin</TextBlock>
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Foreground="White">ⓒ Giulio Sorrentino 2023 some right reserved. Questa app è sotto GPLv3 o, secondo la propria personale opinione, qualsiasi versione successiva.</TextBlock>
-		</Grid>
-	</UserControl>
+	</Grid>
+</UserControl>

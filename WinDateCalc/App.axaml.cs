@@ -1,8 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using System.Globalization;
-using System.Threading;
+
 using WinDateCalc.ViewModels;
 using WinDateCalc.Views;
 
@@ -12,7 +11,6 @@ public partial class App : Application
 {
     public override void Initialize()
     {
-        Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("it");
         AvaloniaXamlLoader.Load(this);
     }
 

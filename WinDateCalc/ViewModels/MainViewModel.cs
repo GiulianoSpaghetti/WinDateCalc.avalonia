@@ -1,13 +1,10 @@
-﻿using Avalonia.Interactivity;
+﻿using System.IO;
 using System;
-using System.IO;
-using WinDateFrom;
 
 namespace WinDateCalc.ViewModels;
 
 public class MainViewModel : ViewModelBase
 {
-
     private static Opzioni o;
     public static readonly string path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
@@ -36,7 +33,7 @@ public class MainViewModel : ViewModelBase
         string s = file.ReadToEnd();
         file.Close();
         o = Newtonsoft.Json.JsonConvert.DeserializeObject<Opzioni>(s);
-        if (o==null)
+        if (o == null)
         {
             DateTime d = DateTime.Now;
             o = new Opzioni();
@@ -69,7 +66,7 @@ public class MainViewModel : ViewModelBase
         if (date == null)
             return "Data non selezionata";
         DateTimeOffset d = new DateTimeOffset(DateTime.Now);
-        TimeSpan differenza = (DateTimeOffset) date - d;
+        TimeSpan differenza = (DateTimeOffset)date - d;
         s = differenza.ToString();
         if (s.IndexOf("-") == 0)
         {

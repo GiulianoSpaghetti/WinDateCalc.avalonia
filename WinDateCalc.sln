@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33815.320
+VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc", "WinDateCalc\WinDateCalc.csproj", "{4A246FCE-FF55-4A15-9028-405BF777968D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc", "WinDateCalc\WinDateCalc.csproj", "{5402788F-7D88-4FE3-A5A2-96C514BC3618}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc.Android", "WinDateCalc.Android\WinDateCalc.Android.csproj", "{EA3F9723-8AA4-4950-9972-41690B88F1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc.Android", "WinDateCalc.Android\WinDateCalc.Android.csproj", "{C52BF473-465A-4152-B7A2-AA1635BE4EEB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc.Desktop", "WinDateCalc.Desktop\WinDateCalc.Desktop.csproj", "{C7B84443-5B1E-4305-9A44-39A62185D298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDateCalc.Desktop", "WinDateCalc.Desktop\WinDateCalc.Desktop.csproj", "{2773116D-0E3C-4A54-B300-5C16D3BE7798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,25 +15,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A246FCE-FF55-4A15-9028-405BF777968D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A246FCE-FF55-4A15-9028-405BF777968D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A246FCE-FF55-4A15-9028-405BF777968D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A246FCE-FF55-4A15-9028-405BF777968D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA3F9723-8AA4-4950-9972-41690B88F1EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{C7B84443-5B1E-4305-9A44-39A62185D298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7B84443-5B1E-4305-9A44-39A62185D298}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7B84443-5B1E-4305-9A44-39A62185D298}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7B84443-5B1E-4305-9A44-39A62185D298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5402788F-7D88-4FE3-A5A2-96C514BC3618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5402788F-7D88-4FE3-A5A2-96C514BC3618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5402788F-7D88-4FE3-A5A2-96C514BC3618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5402788F-7D88-4FE3-A5A2-96C514BC3618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52BF473-465A-4152-B7A2-AA1635BE4EEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2773116D-0E3C-4A54-B300-5C16D3BE7798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2773116D-0E3C-4A54-B300-5C16D3BE7798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2773116D-0E3C-4A54-B300-5C16D3BE7798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2773116D-0E3C-4A54-B300-5C16D3BE7798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3ED67DCF-768C-44A5-B2A2-188804BA4C58}
+		SolutionGuid = {8EE26EEE-D308-47A5-860B-D47125B93627}
 	EndGlobalSection
 EndGlobal

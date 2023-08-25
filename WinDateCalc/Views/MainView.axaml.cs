@@ -11,7 +11,7 @@ public partial class MainView : UserControl
     {
         InitializeComponent();
         MainViewModel.CaricaOpzioni();
-        background.Stretch=Avalonia.Media.Stretch.Fill;
+        background.Stretch = Avalonia.Media.Stretch.Fill;
         data.SelectedDate = new DateTime(MainViewModel.GetAnno(), MainViewModel.GetMese(), MainViewModel.GetGiorno());
     }
 
